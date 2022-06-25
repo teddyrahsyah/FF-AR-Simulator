@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Frequency Filter AR Simulator</string>
+
+    <!-- Menu Title -->
+    <string name="menu_home">Beranda</string>
+    <string name="menu_module">Modul Belajar</string>
+    <string name="menu_article">Artikel Pendukung</string>
+    <string name="menu_settings">Pengaturan</string>
+
+    <!-- Settings -->
+    <!-- Settings Header -->
+    <string name="display_header">Tampilan</string>
+    <string name="language_header">Bahasa</string>
+    <string name="about_header">Tentang Kami</string>
+    <!-- Settings Title-->
+    <string name="dark_mode_title">Mode Gelap</string>
+    <string name="change_language_title">Ganti Bahasa</string>
+    <string name="contact_us_title">Hubungi Kami</string>
+    <string name="app_info_title">Info Aplikasi</string>
+    <!-- Settings Summary -->
+    <string name="contact_us_summary">Berikan saran untuk aplikasi ini.</string>
+
+    <!-- Module -->
+    <string name="module_number_text">Modul %s</string>
+    <!-- Article -->
+    <string name="article_image_text">Gambar Artikel</string>
+    <string name="article_category_text">Kategori</string>
+    <string name="article_created_text">Dibuat oleh %s pada %s</string>
+
+    <!-- Helpers -->
+    <string name="no_data_text">Tidak Ada Data</string>
+    <string name="use_guide_text">Panduan Penggunaan AR Simulator</string>
+</resources>

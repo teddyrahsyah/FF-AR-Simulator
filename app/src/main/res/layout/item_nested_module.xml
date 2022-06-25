@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="?attr/colorSecondaryVariant"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:minHeight="70dp"
+    app:cardElevation="1dp">
+
+    <TextView
+        style="@style/TextContent.Title.Title4"
+        android:id="@+id/tv_item_title"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        tools:text="Theory 1-1 : Filter RC" />
+</com.google.android.material.card.MaterialCardView>

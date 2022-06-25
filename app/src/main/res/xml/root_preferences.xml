@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/display_header">
+        <SwitchPreferenceCompat
+            app:icon="@drawable/ic_dark_mode_dark"
+            app:key="theme"
+            app:title="@string/dark_mode_title" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about_header">
+        <Preference
+            app:icon="@drawable/ic_contact_us_dark"
+            app:summary="@string/contact_us_summary"
+            app:title="@string/contact_us_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.develo.ff_arsimulator.MainActivity"
+                android:targetPackage="com.develo.ff_arsimulator" />
+        </Preference>
+        <Preference
+            app:icon="@drawable/ic_info_dark"
+            app:title="@string/app_info_title">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:targetClass="com.develo.ff_arsimulator.MainActivity"
+                android:targetPackage="com.develo.ff_arsimulator" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

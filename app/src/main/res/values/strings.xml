@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Frequency Filter AR Simulator</string>
+
+    <!-- Menu Title -->
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_module">Learning Module</string>
+    <string name="menu_article">Supporting Article</string>
+
+    <!-- Settings -->
+    <!-- Settings Header -->
+    <string name="display_header">Display</string>
+    <string name="language_header">Language</string>
+    <string name="about_header">About</string>
+    <!-- Settings Title-->
+    <string name="dark_mode_title">Dark Mode</string>
+    <string name="change_language_title">Change Language</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="app_info_title">App Info</string>
+    <!-- Settings Summary -->
+    <string name="contact_us_summary">Give advice for this app.</string>
+
+    <!-- Module -->
+    <string name="module_number_text">Module %s</string>
+    <string name="module_item_text" translatable="false">%s %s-%s : %s</string>
+
+    <!-- Article -->
+    <string name="article_image_text">Article Image</string>
+    <string name="article_category_text">Category: %s</string>
+    <string name="article_created_text">Created By %s on %s</string>
+
+    <!-- Helpers -->
+    <string name="no_data_text">There\'s No Data</string>
+    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta imperdiet ex, ac vehicula ante. Etiam interdum lorem vel varius congue. In dui sapien, mattis vel velit eget, porttitor malesuada tortor. Mauris suscipit tincidunt velit ac venenatis. Aliquam erat volutpat. In ac augue diam. Phasellus sagittis massa purus, a posuere orci pulvinar volutpat. Donec posuere dolor non euismod aliquet. Sed bibendum erat at interdum fermentum. Sed erat magna, egestas quis sem quis, pretium commodo velit. Proin iaculis eleifend orci in lobortis. Phasellus fringilla non eros at vulputate. Nunc auctor ex eros, at aliquet ipsum eleifend vel. Aenean elementum sapien odio, at sodales turpis vestibulum et. Integer viverra nisi porttitor maximus gravida. Vivamus sit amet augue tellus. \n Aliquam eget enim luctus, ullamcorper purus vel, maximus nunc. Sed consequat ac felis ut viverra. Pellentesque hendrerit risus vel consequat aliquet. Donec faucibus, arcu molestie faucibus lacinia, neque mauris ultrices elit, vitae pharetra sapien ex ac justo. Pellentesque id rhoncus nulla. Aliquam quis mi nec massa tristique aliquam. Sed ut magna a sapien pretium ornare in aliquet ipsum. Etiam ullamcorper egestas accumsan. Suspendisse iaculis consequat justo, id porta quam vulputate et. Pellentesque lacinia euismod vestibulum. Duis commodo neque sit amet sem viverra molestie.</string>
+    <string name="use_guide_text">AR Simulator Usage Guide</string>
+</resources>

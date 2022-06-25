@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.FFARSimulator" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/accent_light</item>
+        <item name="colorPrimaryVariant">@color/secondary_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary_light</item>
+        <item name="colorSecondaryVariant">@color/primary_light</item>
+        <item name="colorOnSecondary">@color/text_light</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:listDivider">@color/divider_light</item>
+        <item name="android:windowBackground">@color/primary_light</item>
+
+    </style>
+    <style name="CustomToolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/accent_light</item>
+    </style>
+    <style name="CustomToolbarTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="SplashScreen" parent="Theme.FFARSimulator.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?attr/colorOnSecondary</item>
+    </style>
+
+    <style name="TextContent.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextContent.Title.Toolbar">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorSecondaryVariant</item>
+    </style>
+
+    <style name="TextContent.Title.Card1">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextContent.Title.Card2">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextContent.Title.Title1">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="TextContent.Title.Title2">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextContent.Title.Title4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="Theme.FFARSimulator.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.FFARSimulator.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.FFARSimulator.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
