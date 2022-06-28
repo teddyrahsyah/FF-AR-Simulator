@@ -1,20 +1,14 @@
 package com.develo.ff_arsimulator.ui.settings
 
 import android.content.SharedPreferences
-import android.os.Build
 import android.os.Bundle
-import android.os.LocaleList
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.PreferenceManager
 import com.develo.ff_arsimulator.R
-import com.develo.ff_arsimulator.base.BaseActivity
 import com.develo.ff_arsimulator.databinding.ActivitySettingsBinding
-import com.develo.ff_arsimulator.utils.Localization
-import java.util.*
 
-@Suppress("DEPRECATION")
 class SettingsActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferenceChangeListener {
 
     private lateinit var binding: ActivitySettingsBinding
@@ -57,32 +51,7 @@ class SettingsActivity : AppCompatActivity(), SharedPreferences.OnSharedPreferen
                     AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
                 }
             }
-            "language" -> {
-                when (sharedPreferences?.getString(key, "English")) {
-                    "English" -> {
-                        Localization.wrap(this, "en")
-//                        setLocale("en")
-                        finish()
-                        startActivity(intent)
-                    }
-                    "Bahasa Indonesia" -> {
-                        Localization.wrap(this, "id")
-//                        setLocale("id")
-                        finish()
-                        startActivity(intent)
-                    }
-                }
-            }
         }
-    }
-
-    private fun setLocale(localeName: String) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            val localeListToSet = LocaleList(Locale(localeName))
-            LocaleList.setDefault(localeListToSet)
-            resources.configuration.setLocales(localeListToSet)
-        }
-        resources.updateConfiguration(resources.configuration, resources.displayMetrics)
     }
 
     override fun onDestroy() {

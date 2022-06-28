@@ -13,7 +13,7 @@ import com.develo.ff_arsimulator.data.source.local.entity.ArticleEntity
 import com.develo.ff_arsimulator.databinding.ItemArticleBinding
 import com.develo.ff_arsimulator.ui.articles.ArticleDetailActivity.Companion.EXTRA_ID
 
-class ArticleAdapter() :
+class ArticleAdapter :
     ListAdapter<ArticleEntity, ArticleAdapter.ArticleViewHolder>(DIFF_CALLBACK) {
     companion object {
         val DIFF_CALLBACK: DiffUtil.ItemCallback<ArticleEntity> =

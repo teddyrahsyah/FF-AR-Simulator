@@ -6,12 +6,11 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.develo.ff_arsimulator.R
-import com.develo.ff_arsimulator.base.BaseActivity
 import com.develo.ff_arsimulator.data.source.Result
 import com.develo.ff_arsimulator.databinding.ActivityArticleDetailBinding
 import com.develo.ff_arsimulator.viewmodel.ViewModelFactory
 
-class ArticleDetailActivity : BaseActivity() {
+class ArticleDetailActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_ID = "extra_id"

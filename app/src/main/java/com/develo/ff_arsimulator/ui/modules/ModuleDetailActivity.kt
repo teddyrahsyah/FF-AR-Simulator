@@ -7,12 +7,11 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.develo.ff_arsimulator.base.BaseActivity
 import com.develo.ff_arsimulator.data.source.Result
 import com.develo.ff_arsimulator.databinding.ActivityModuleDetailBinding
 import com.develo.ff_arsimulator.viewmodel.ViewModelFactory
 
-class ModuleDetailActivity : BaseActivity() {
+class ModuleDetailActivity : AppCompatActivity() {
 
     companion object {
         const val EXTRA_ID = "extra_id"
@@ -74,7 +73,7 @@ class ModuleDetailActivity : BaseActivity() {
                     else -> {
                         Toast.makeText(
                             this,
-                            "Error Occured while retrieving data!",
+                            "Error occured while retrieving data!",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -103,7 +102,7 @@ class ModuleDetailActivity : BaseActivity() {
                     else -> {
                         Toast.makeText(
                             this,
-                            "Error Occured while retrieving data!",
+                            "Error occured while retrieving data!",
                             Toast.LENGTH_SHORT
                         ).show()
                     }

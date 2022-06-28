@@ -1,16 +1,15 @@
 package com.develo.ff_arsimulator.ui.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProvider
 import com.develo.ff_arsimulator.R
 import com.develo.ff_arsimulator.databinding.FragmentHomeBinding
+import com.develo.ff_arsimulator.ui.arguide.ArGuideActivity
 
 class HomeFragment : Fragment() {
 
@@ -33,6 +32,11 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         updateDarkUI()
+        binding.cvUsageGuide.setOnClickListener {
+            Intent(requireContext(), ArGuideActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 
     private fun updateDarkUI() {

@@ -2,35 +2,47 @@
     <string name="app_name">Frequency Filter AR Simulator</string>
 
     <!-- Menu Title -->
-    <string name="menu_home">Home</string>
-    <string name="menu_settings">Settings</string>
-    <string name="menu_module">Learning Module</string>
-    <string name="menu_article">Supporting Article</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_module">Modul Belajar</string>
+    <string name="menu_article">Artikel Pendukung</string>
+    <string name="menu_settings">Pengaturan</string>
 
     <!-- Settings -->
     <!-- Settings Header -->
-    <string name="display_header">Display</string>
-    <string name="language_header">Language</string>
-    <string name="about_header">About</string>
+    <string name="display_header">Tampilan</string>
+    <string name="language_header">Bahasa</string>
+    <string name="about_header">Tentang Kami</string>
     <!-- Settings Title-->
-    <string name="dark_mode_title">Dark Mode</string>
-    <string name="change_language_title">Change Language</string>
-    <string name="contact_us_title">Contact Us</string>
-    <string name="app_info_title">App Info</string>
+    <string name="dark_mode_title">Mode Gelap</string>
+    <string name="change_language_title">Ganti Bahasa</string>
+    <string name="contact_us_title">Hubungi Kami</string>
+    <string name="app_info_title">Info Aplikasi</string>
     <!-- Settings Summary -->
-    <string name="contact_us_summary">Give advice for this app.</string>
+    <string name="contact_us_summary">Berikan saran untuk aplikasi ini.</string>
 
     <!-- Module -->
-    <string name="module_number_text">Module %s</string>
-    <string name="module_item_text" translatable="false">%s %s-%s : %s</string>
+    <string name="module_number_text">Modul %s</string>
+    <string name="module_item_text" >%s %s-%s : %s</string>
 
     <!-- Article -->
-    <string name="article_image_text">Article Image</string>
-    <string name="article_category_text">Category: %s</string>
-    <string name="article_created_text">Created By %s on %s</string>
+    <string name="article_image_text">Gambar Artikel</string>
+    <string name="article_category_text">Kategori %s</string>
+    <string name="article_created_text">Dibuat oleh %s pada %s</string>
 
     <!-- Helpers -->
-    <string name="no_data_text">There\'s No Data</string>
-    <string name="lorem" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta imperdiet ex, ac vehicula ante. Etiam interdum lorem vel varius congue. In dui sapien, mattis vel velit eget, porttitor malesuada tortor. Mauris suscipit tincidunt velit ac venenatis. Aliquam erat volutpat. In ac augue diam. Phasellus sagittis massa purus, a posuere orci pulvinar volutpat. Donec posuere dolor non euismod aliquet. Sed bibendum erat at interdum fermentum. Sed erat magna, egestas quis sem quis, pretium commodo velit. Proin iaculis eleifend orci in lobortis. Phasellus fringilla non eros at vulputate. Nunc auctor ex eros, at aliquet ipsum eleifend vel. Aenean elementum sapien odio, at sodales turpis vestibulum et. Integer viverra nisi porttitor maximus gravida. Vivamus sit amet augue tellus. \n Aliquam eget enim luctus, ullamcorper purus vel, maximus nunc. Sed consequat ac felis ut viverra. Pellentesque hendrerit risus vel consequat aliquet. Donec faucibus, arcu molestie faucibus lacinia, neque mauris ultrices elit, vitae pharetra sapien ex ac justo. Pellentesque id rhoncus nulla. Aliquam quis mi nec massa tristique aliquam. Sed ut magna a sapien pretium ornare in aliquet ipsum. Etiam ullamcorper egestas accumsan. Suspendisse iaculis consequat justo, id porta quam vulputate et. Pellentesque lacinia euismod vestibulum. Duis commodo neque sit amet sem viverra molestie.</string>
-    <string name="use_guide_text">AR Simulator Usage Guide</string>
+    <string name="no_data_text">Tidak Ada Data</string>
+    <string name="lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta imperdiet ex, ac vehicula ante. Etiam interdum lorem vel varius congue. In dui sapien, mattis vel velit eget, porttitor malesuada tortor. Mauris suscipit tincidunt velit ac venenatis. Aliquam erat volutpat. In ac augue diam. Phasellus sagittis massa purus, a posuere orci pulvinar volutpat. Donec posuere dolor non euismod aliquet. Sed bibendum erat at interdum fermentum. Sed erat magna, egestas quis sem quis, pretium commodo velit. Proin iaculis eleifend orci in lobortis. Phasellus fringilla non eros at vulputate. Nunc auctor ex eros, at aliquet ipsum eleifend vel. Aenean elementum sapien odio, at sodales turpis vestibulum et. Integer viverra nisi porttitor maximus gravida. Vivamus sit amet augue tellus. \n Aliquam eget enim luctus, ullamcorper purus vel, maximus nunc. Sed consequat ac felis ut viverra. Pellentesque hendrerit risus vel consequat aliquet. Donec faucibus, arcu molestie faucibus lacinia, neque mauris ultrices elit, vitae pharetra sapien ex ac justo. Pellentesque id rhoncus nulla. Aliquam quis mi nec massa tristique aliquam. Sed ut magna a sapien pretium ornare in aliquet ipsum. Etiam ullamcorper egestas accumsan. Suspendisse iaculis consequat justo, id porta quam vulputate et. Pellentesque lacinia euismod vestibulum. Duis commodo neque sit amet sem viverra molestie.</string>
+    <string name="use_guide_text">Panduan Penggunaan AR Simulator</string>
+
+    <!-- Guide Layout -->
+    <string name="app_intro_skip_button" >Lewati</string>
+    <string name="app_intro_done_button" >Mulai</string>
+
+    <string name="guide_text_1">Arahkan kamera kamu ke bidang datar dan gerakkan kamera kamu sampai muncul gambar marker</string>
+    <string name="guide_text_2" >Pilih object 3d yang ingin dimunculkan</string>
+    <string name="guide_text_3" >Tekan tombol “Place” untuk meletakkan object</string>
+    <string name="guide_text_4" >Tekan tombol “&lt;” dan “&gt;” untuk memutar object</string>
+    <string name="guide_text_5" >Tekan tombol “Run” untuk menjalankan rangkaian</string>
+    <string name="guide_text_6" >Atur Frekuensi sesuai yang diinginkan</string>
+    <string name="guide_text_7" >Sudah siap mencoba?</string>
 </resources>
