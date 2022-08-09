@@ -22,7 +22,7 @@
 
     <!-- Module -->
     <string name="module_number_text">Modul %s</string>
-    <string name="module_item_text" >%s %s-%s : %s</string>
+    <string name="module_item_text">%s %s-%s : %s</string>
 
     <!-- Article -->
     <string name="article_image_text">Gambar Artikel</string>
@@ -31,18 +31,29 @@
 
     <!-- Helpers -->
     <string name="no_data_text">Tidak Ada Data</string>
-    <string name="lorem" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta imperdiet ex, ac vehicula ante. Etiam interdum lorem vel varius congue. In dui sapien, mattis vel velit eget, porttitor malesuada tortor. Mauris suscipit tincidunt velit ac venenatis. Aliquam erat volutpat. In ac augue diam. Phasellus sagittis massa purus, a posuere orci pulvinar volutpat. Donec posuere dolor non euismod aliquet. Sed bibendum erat at interdum fermentum. Sed erat magna, egestas quis sem quis, pretium commodo velit. Proin iaculis eleifend orci in lobortis. Phasellus fringilla non eros at vulputate. Nunc auctor ex eros, at aliquet ipsum eleifend vel. Aenean elementum sapien odio, at sodales turpis vestibulum et. Integer viverra nisi porttitor maximus gravida. Vivamus sit amet augue tellus. \n Aliquam eget enim luctus, ullamcorper purus vel, maximus nunc. Sed consequat ac felis ut viverra. Pellentesque hendrerit risus vel consequat aliquet. Donec faucibus, arcu molestie faucibus lacinia, neque mauris ultrices elit, vitae pharetra sapien ex ac justo. Pellentesque id rhoncus nulla. Aliquam quis mi nec massa tristique aliquam. Sed ut magna a sapien pretium ornare in aliquet ipsum. Etiam ullamcorper egestas accumsan. Suspendisse iaculis consequat justo, id porta quam vulputate et. Pellentesque lacinia euismod vestibulum. Duis commodo neque sit amet sem viverra molestie.</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porta imperdiet ex, ac vehicula ante. Etiam interdum lorem vel varius congue. In dui sapien, mattis vel velit eget, porttitor malesuada tortor. Mauris suscipit tincidunt velit ac venenatis. Aliquam erat volutpat. In ac augue diam. Phasellus sagittis massa purus, a posuere orci pulvinar volutpat. Donec posuere dolor non euismod aliquet. Sed bibendum erat at interdum fermentum. Sed erat magna, egestas quis sem quis, pretium commodo velit. Proin iaculis eleifend orci in lobortis. Phasellus fringilla non eros at vulputate. Nunc auctor ex eros, at aliquet ipsum eleifend vel. Aenean elementum sapien odio, at sodales turpis vestibulum et. Integer viverra nisi porttitor maximus gravida. Vivamus sit amet augue tellus. \n Aliquam eget enim luctus, ullamcorper purus vel, maximus nunc. Sed consequat ac felis ut viverra. Pellentesque hendrerit risus vel consequat aliquet. Donec faucibus, arcu molestie faucibus lacinia, neque mauris ultrices elit, vitae pharetra sapien ex ac justo. Pellentesque id rhoncus nulla. Aliquam quis mi nec massa tristique aliquam. Sed ut magna a sapien pretium ornare in aliquet ipsum. Etiam ullamcorper egestas accumsan. Suspendisse iaculis consequat justo, id porta quam vulputate et. Pellentesque lacinia euismod vestibulum. Duis commodo neque sit amet sem viverra molestie.</string>
     <string name="use_guide_text">Panduan Penggunaan AR Simulator</string>
 
-    <!-- Guide Layout -->
-    <string name="app_intro_skip_button" >Lewati</string>
-    <string name="app_intro_done_button" >Mulai</string>
+    <!-- Contact Us -->
+    <string name="email_hint">Email</string>
+    <string name="message_hint">Enter your message here</string>
 
-    <string name="guide_text_1">Arahkan kamera kamu ke bidang datar dan gerakkan kamera kamu sampai muncul gambar marker</string>
-    <string name="guide_text_2" >Pilih object 3d yang ingin dimunculkan</string>
-    <string name="guide_text_3" >Tekan tombol “Place” untuk meletakkan object</string>
-    <string name="guide_text_4" >Tekan tombol “&lt;” dan “&gt;” untuk memutar object</string>
-    <string name="guide_text_5" >Tekan tombol “Run” untuk menjalankan rangkaian</string>
-    <string name="guide_text_6" >Atur Frekuensi sesuai yang diinginkan</string>
-    <string name="guide_text_7" >Sudah siap mencoba?</string>
+
+    <!-- Guide Layout -->
+    <string name="app_intro_skip_button">Lewati</string>
+    <string name="app_intro_done_button">Mulai</string>
+
+    <string name="guide_text_1">Arahkan kamera kamu ke bidang datar dan gerakkan kamera sampai muncul gambar marker</string>
+    <string name="guide_text_2">Tekan tombol \"place\" untuk meletakkan model 3d</string>
+    <string name="guide_text_3">Putar model 3d ke kanan ataupun kekiri sesuai kebutuhan</string>
+    <string name="guide_text_4">Tekan tombol \"power\" untuk menjalankan rangkaian</string>
+    <string name="guide_text_5">Kamu dapat mengubah parameter yang tersedia sesuai dengan keinginanmu</string>
+    \
+    <string name="guide_text_6">Sudah siap mencoba?</string>
+    <string name="advice_text">Your advice mean something to us</string>
+    <string name="submit_text">Submit</string>
+    <string name="app_version_text">Version 1.0</string>
+    <string name="app_copyright_text">&#169; 2022 ARSIM Inc</string>
+
+
 </resources>

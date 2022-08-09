@@ -49,10 +49,9 @@ class ArticleAdapter :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(article: ArticleEntity) {
             binding.tvArticleTitle.text = article.title
-            binding.tvArticleDescription.text = article.description
             Glide.with(itemView.context)
                 .load(article.image)
-                .apply(RequestOptions().override(750, 600))
+                .apply(RequestOptions().override(600, 450))
                 .into(binding.ivArticleImage)
 
             itemView.setOnClickListener {

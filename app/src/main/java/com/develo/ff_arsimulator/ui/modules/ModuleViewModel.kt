@@ -7,5 +7,4 @@ class ModuleViewModel(private val dataRepository: DataRepository): ViewModel() {
 
     fun getModules() = dataRepository.getModules()
     fun getTheoryDetail(id: String) = dataRepository.getTheoryDetail(id)
-    fun getLabDetail(id: String) = dataRepository.getLabDetail(id)
 }

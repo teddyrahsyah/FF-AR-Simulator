@@ -16,7 +16,7 @@
             app:title="@string/contact_us_title">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetClass="com.develo.ff_arsimulator.MainActivity"
+                android:targetClass="com.develo.ff_arsimulator.ui.contact.ContactActivity"
                 android:targetPackage="com.develo.ff_arsimulator" />
         </Preference>
         <Preference
@@ -24,7 +24,7 @@
             app:title="@string/app_info_title">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetClass="com.develo.ff_arsimulator.MainActivity"
+                android:targetClass="com.develo.ff_arsimulator.ui.appinfo.AppInfoActivity"
                 android:targetPackage="com.develo.ff_arsimulator" />
         </Preference>
     </PreferenceCategory>

@@ -4,7 +4,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.text.HtmlCompat
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.develo.ff_arsimulator.R
 import com.develo.ff_arsimulator.data.source.Result
 import com.develo.ff_arsimulator.databinding.ActivityArticleDetailBinding
@@ -49,11 +51,12 @@ class ArticleDetailActivity : AppCompatActivity() {
                         val article = result.data
                         with(binding) {
                             tvTitle.text = article.title
-                            tvCreated.text = getString(R.string.article_created_text, article.author, article.date)
+                            tvCreated.text = getString(R.string.article_created_text, article.author, article.date?.take(10))
                             tvCategory.text = getString(R.string.article_category_text, article.category)
-                            tvDescription.text = article.description
+                            tvDescription.text = HtmlCompat.fromHtml(article.description, HtmlCompat.FROM_HTML_MODE_COMPACT)
                             Glide.with(this@ArticleDetailActivity)
                                 .load(article.image)
+                                .apply(RequestOptions().override(750, 600))
                                 .into(ivImage)
                         }
                     }
@@ -67,5 +70,15 @@ class ArticleDetailActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
     }
 }

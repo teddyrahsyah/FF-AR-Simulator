@@ -10,10 +10,19 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.FFARSimulator"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
+        <activity
+            android:name=".ui.appinfo.AppInfoActivity"
+            android:exported="false"
+            android:theme="@style/SplashScreen"/>
+        <activity
+            android:name=".ui.contact.ContactActivity"
+            android:exported="false"
+            android:theme="@style/Theme.FFARSimulator.NoActionBar" />
         <activity
             android:name=".ui.arguide.ArGuideActivity"
             android:exported="false"

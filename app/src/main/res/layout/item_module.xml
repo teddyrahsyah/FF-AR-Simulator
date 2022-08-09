@@ -43,7 +43,6 @@
                 tools:text="Low Pass Filter" />
         </RelativeLayout>
 
-
         <RelativeLayout
             android:id="@+id/expandable_layout"
             android:layout_width="match_parent"
@@ -57,5 +56,4 @@
                 tools:listitem="@layout/item_nested_module"/>
         </RelativeLayout>
     </LinearLayout>
-
 </com.google.android.material.card.MaterialCardView>

@@ -9,10 +9,9 @@
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:importantForAccessibility="no"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_arsim_logo_light_main"
-        android:layout_centerInParent="true" />
-
+        android:layout_centerInParent="true"
+        android:importantForAccessibility="no"
+        android:src="@drawable/ic_arsim_logo_light_main" />
 </RelativeLayout>

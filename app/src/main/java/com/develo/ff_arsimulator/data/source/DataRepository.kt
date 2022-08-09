@@ -6,6 +6,7 @@ import androidx.lifecycle.liveData
 import androidx.lifecycle.map
 import com.develo.ff_arsimulator.data.source.local.entity.*
 import com.develo.ff_arsimulator.data.source.local.entity.relations.ModuleWithTheoryWithLab
+import com.develo.ff_arsimulator.data.source.local.model.MessageRequest
 import com.develo.ff_arsimulator.data.source.local.room.AppDao
 import com.develo.ff_arsimulator.data.source.remote.api.ApiService
 
@@ -104,6 +105,7 @@ class DataRepository private constructor(
             val response = apiService.getArticles()
             val articles = response.results
             val articlesList = articles.map { article ->
+                Log.d("DATE", article.date)
                 ArticleEntity(
                     article.id,
                     article.author,
@@ -129,5 +131,17 @@ class DataRepository private constructor(
         val localData: LiveData<Result<ArticleEntity>> =
             appDao.getArticleDetail(id).map { Result.Success(it) }
         emitSource(localData)
+    }
+
+    fun addMessagge(sender: String, message: String): LiveData<Result<List<ArticleEntity>>> = liveData {
+        emit(Result.Loading)
+        val messageReq = MessageRequest(sender, message)
+        try {
+            apiService.postMessage(messageReq)
+            emit(Result.PostSuccess("Berhasil mengirim data"))
+        } catch (e: Exception) {
+            Log.d("DataRepository", "postMessage: ${e.message.toString()} ")
+            emit(Result.Error(e.message.toString()))
+        }
     }
 }

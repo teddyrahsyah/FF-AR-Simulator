@@ -2,6 +2,7 @@ package com.develo.ff_arsimulator.ui.modules
 
 import android.annotation.SuppressLint
 import android.content.Intent
+import android.net.Uri
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -11,7 +12,6 @@ import com.develo.ff_arsimulator.R
 import com.develo.ff_arsimulator.data.source.local.entity.LabEntity
 import com.develo.ff_arsimulator.data.source.local.entity.TheoryEntity
 import com.develo.ff_arsimulator.databinding.ItemNestedModuleBinding
-import com.develo.ff_arsimulator.ui.modules.ModuleDetailActivity.Companion.EXTRA_CATEGORY
 import com.develo.ff_arsimulator.ui.modules.ModuleDetailActivity.Companion.EXTRA_ID
 
 class NestedModuleAdapter :
@@ -68,7 +68,6 @@ class NestedModuleAdapter :
                     binding.cardView.setOnClickListener {
                         val intent = Intent(itemView.context, ModuleDetailActivity::class.java)
                         intent.putExtra(EXTRA_ID, moduleItem.id)
-                        intent.putExtra(EXTRA_CATEGORY, moduleItem.category)
                         itemView.context.startActivity(intent)
                     }
                 }
@@ -81,10 +80,12 @@ class NestedModuleAdapter :
                         moduleItem.title
                     )
                     binding.cardView.setOnClickListener {
-                        val intent = Intent(itemView.context, ModuleDetailActivity::class.java)
-                        intent.putExtra(EXTRA_ID, moduleItem.id)
-                        intent.putExtra(EXTRA_CATEGORY, moduleItem.category)
-                        itemView.context.startActivity(intent)
+                        Intent(
+                            Intent.ACTION_VIEW,
+                            Uri.parse("https://ffa-simulator.herokuapp.com/ARApp/${moduleItem.moduleId}/${moduleItem.id}")
+                        ).also {
+                            itemView.context.startActivity(it)
+                        }
                     }
                 }
             }

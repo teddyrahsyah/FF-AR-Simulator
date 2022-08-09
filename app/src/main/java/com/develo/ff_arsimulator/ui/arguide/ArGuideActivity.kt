@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import com.develo.ff_arsimulator.R
 import com.github.appintro.AppIntro
 import com.github.appintro.AppIntroCustomLayoutFragment
-import com.github.appintro.AppIntroPageTransformerType
 
 class ArGuideActivity : AppIntro() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,10 +32,9 @@ class ArGuideActivity : AppIntro() {
         addSlide(
             AppIntroCustomLayoutFragment.newInstance(R.layout.guide_layout_6)
         )
-        addSlide(
-            AppIntroCustomLayoutFragment.newInstance(R.layout.guide_layout_7)
-        )
+
         setImmersiveMode()
+
         setSkipText(R.string.app_intro_skip_button)
         setDoneText(R.string.app_intro_done_button)
         setColorSkipButton(getColorFromAttr(com.google.android.material.R.attr.colorSecondaryVariant))

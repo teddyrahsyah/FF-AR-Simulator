@@ -26,9 +26,12 @@ class SplashScreenActivity : AppCompatActivity() {
         AppThemeUtils.updateTheme(sharedPreferences, delegate)
 
         val mode = AppCompatDelegate.getDefaultNightMode()
-        if (mode == AppCompatDelegate.MODE_NIGHT_YES) {
-            binding.layout.setBackgroundColor(ContextCompat.getColor(this, R.color.primary_dark))
-            binding.ivLogo.setImageResource(R.drawable.ic_arsim_logo_dark_main)
+        when (mode) {
+            AppCompatDelegate.MODE_NIGHT_YES -> {
+                binding.layout.setBackgroundColor(ContextCompat.getColor(this, R.color.primary_dark))
+                binding.ivLogo.setImageResource(R.drawable.ic_arsim_logo_dark_main)
+            }
+            else -> {}
         }
 
         val splashTime = 1000L

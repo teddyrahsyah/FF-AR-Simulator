@@ -21,6 +21,6 @@ data class ArticleModel(
     @field:SerializedName("image")
     val image: String,
 
-    @field:SerializedName("date")
+    @field:SerializedName("createdAt")
     val date: String,
 )

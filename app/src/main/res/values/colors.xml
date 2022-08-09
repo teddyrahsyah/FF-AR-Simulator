@@ -11,6 +11,9 @@
     <color name="secondary_dark">#3A678D</color>
     <color name="accent_dark">#09BC8A</color>
 
+    <color name="red">#FF0000</color>
+
+
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>

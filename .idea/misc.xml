@@ -13,6 +13,7 @@
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_display_settings_dark.xml" value="0.1045" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_help_dark.xml" value="0.1045" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_info_dark.xml" value="0.132" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.127" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_lecture_dark.xml" value="0.165" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_manage_account_dark.xml" value="0.1045" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/ic_manage_accounts_dark.xml" value="0.1045" />
@@ -21,28 +22,30 @@
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/side_nav_bar.xml" value="0.1035" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/drawable/splashscreen_bg.xml" value="0.183" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/abs_layout.xml" value="0.176" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_app_info.xml" value="0.264" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_article_detail.xml" value="0.264" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_auth.xml" value="0.1334853090172239" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_contact.xml" value="0.264" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_general_settings.xml" value="0.10389055151774262" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_lecture_detail.xml" value="0.3614190687361419" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_module_detail.xml" value="0.4" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_module_detail.xml" value="0.2" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_settings.xml" value="0.1334853090172239" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/activity_splash_screen.xml" value="0.271286231884058" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/app_bar_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/app_bar_secondary.xml" value="0.1334853090172239" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/article_item.xml" value="0.11011282908483076" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/content_main.xml" value="0.22826086956521738" />
-        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_article.xml" value="0.16799999999999998" />
-        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_article.xml" value="0.4" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_lectures.xml" value="0.1334853090172239" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_login.xml" value="0.271286231884058" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_module.xml" value="0.2" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_registration.xml" value="0.271286231884058" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_settings.xml" value="0.1334853090172239" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/fragment_slideshow.xml" value="0.1334853090172239" />
-        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/guide_layout_1.xml" value="0.152" />
+        <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/guide_layout_1.xml" value="0.264" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/guide_layout_2.xml" value="0.22530996152201796" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/guide_layout_3.xml" value="0.22530996152201796" />
         <entry key="..\:/Project/ProjectSkripsi/FF-AR-Simulator/app/src/main/res/layout/guide_layout_4.xml" value="0.22530996152201796" />

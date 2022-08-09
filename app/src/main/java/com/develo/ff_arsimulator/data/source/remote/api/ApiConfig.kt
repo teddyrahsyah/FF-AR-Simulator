@@ -16,11 +16,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                // IP Address for localhost (real device)
-                // .baseUrl("http://192.168.56.1:8000/api/")
-
-                // IP Address for localhost (emulator)
-                .baseUrl("http://10.0.2.2:8000/api/")
+                .baseUrl("https://ar-filter-frequency-app.herokuapp.com/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()
